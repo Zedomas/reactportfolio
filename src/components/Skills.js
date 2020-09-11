@@ -18,17 +18,17 @@ function Skills(props) {
         <div className="icons-container">
             <h1 className="skills">Skills</h1>
             <div className="icons">
-                <img className="icon" src={HTML} />
-                <img className="icon" src={CSS} />
-                <img className="icon" src={BOOTSTRAP} />
-                <img className="icon" src={JS} />
-                <img className="icon" src={NODE} />
-                <img className="icon" src={PYTHON} />
-                <img className="icon" src={DJANGO} />
-                <img className="icon" src={SQL} />
-                <img className="icon" src={POSTGRES} />
-                <img className="icon" src={MONGODB} />
-                <img className="icon" src={AWS} />
+                <img className="icon" alt="HTML" src={HTML} />
+                <img className="icon" alt="CSS" src={CSS} />
+                <img className="icon" alt="BootStrap" src={BOOTSTRAP} />
+                <img className="icon" alt="JavaScript" src={JS} />
+                <img className="icon" alt="NODE" src={NODE} />
+                <img className="icon" alt="PYTHON" src={PYTHON} />
+                <img className="icon" alt="DJANGO" src={DJANGO} />
+                <img className="icon" alt="SQL" src={SQL} />
+                <img className="icon" alt="POSTGRES" src={POSTGRES} />
+                <img className="icon" alt="MONGODB" src={MONGODB} />
+                <img className="icon" alt="AWS" src={AWS} />
             </div>
         </div>
     )

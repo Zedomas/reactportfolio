@@ -11,9 +11,9 @@ function Footer() {
         <footer className="mt-5">
             <Container fluid={true}>
                 <Row className="border-top justify-content-center p-3">
-                    <a href="https://www.linkedin.com/in/robertposton91/" target="_blank" rel="noopener noreferrer"><img className="footer-links" src={Linkedin}></img></a>
-                    <a href="www.github.com/zedomas" target="_blank" rel="noopener noreferrer"> <img className="footer-links" src={Github}></img></a>
-                    <a href="mailto:robertallenposton@gmail.com" target="_blank" rel="noopener noreferrer"> <img className="footer-links" src={Contact}></img></a>
+                    <a href="https://www.linkedin.com/in/robertposton91/" target="_blank" rel="noopener noreferrer"><img className="footer-links" alt="Linkedin" src={Linkedin}></img></a>
+                    <a href="www.github.com/zedomas" target="_blank" rel="noopener noreferrer"> <img className="footer-links" alt="Github" src={Github}></img></a>
+                    <a href="mailto:robertallenposton@gmail.com" target="_blank" rel="noopener noreferrer"> <img className="footer-links" alt="contact me" src={Contact}></img></a>
                 </Row>
             </Container>
         </footer>
