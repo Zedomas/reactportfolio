@@ -43,8 +43,9 @@ class App extends Component {
         <Container className="p-0" fluid={true}>
 
         <Navbar className="border-bottom" bg="transparent" expand="lg">
-          <Navbar.Brand>Robert</Navbar.Brand>
-
+          <a href="/">
+            <Navbar.Brand>Robert</Navbar.Brand>
+          </a>
           <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
           <Navbar.Collapse id="navbar-toggle">
             <Nav className="ml-auto">
